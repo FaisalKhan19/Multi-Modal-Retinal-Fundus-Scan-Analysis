@@ -28,6 +28,10 @@ The Eye Doctor System is an application designed to assist in diagnosing eye dis
 4. View the predicted confidence percentages for various eye diseases.
 5. Optionally, request a diagnostic report from the AI Large Language Model.
 
+## Obtaining and Training the Model
+1. Obtain the `OIA-ODIR` dataset from [https://drive.google.com/file/d/1-7DO1jJFC_4W0hc2CaonlLe595M4eDOh/view].
+2. Follow the instructions provided in the provided [FUNDUS-DEEP-NET-AUGMENTED.ipynb] file to train the model.
+
 ## Installation
 1. Clone the repository to your local machine:
    ```bash
