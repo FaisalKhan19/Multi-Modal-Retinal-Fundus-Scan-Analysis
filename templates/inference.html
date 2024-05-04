@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Retinal Disease Detection</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1><span>A.I.</span> Retinal Scan Analysis</h1>
+        <p>Unveiling potential diseases with cutting-edge technology.</p>
+        <form id="scan-form">
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <label for="sex">Sex:</label>
+                <select id="sex" name="sex">
+                    <option value="">Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <label for="scan-image">Retinal Scan (JPEG or PNG)</label>
+            <div class="form-group">
+                <div class="scan-images">
+                    <div class="scan-image-container">
+                        <label for="left-scan-image">Left Retinal Scan:</label>
+                        <input type="file" id="left-scan-image" name="scan" accept=".jpg,.jpeg,.png">
+                    </div>
+                    <div class="scan-image-container">
+                        <label for="right-scan-image">Right Retinal Scan:</label>
+                        <input type="file" id="right-scan-image" name="scan" accept=".jpg,.jpeg,.png">
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="analyze-btn">Analyze</button>
+        </form>
+        <div id="results">
+            <div id="disp-scan"></div>
+        </div>
+        <button type="button" id="cgpt-btn">Get Diagnosis from AI</button>
+        <div id="cgpt-container" class="cgpt-container"></div>
+        <div id="loading-animation" class="loading-animation"></div>
+        <script src="/static/js/script.js"></script>
+
+
+    </div>
+</body>
+
+</html>
