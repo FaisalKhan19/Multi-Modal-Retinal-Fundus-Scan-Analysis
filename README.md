@@ -31,7 +31,7 @@ The Eye Doctor System is an application designed to assist in diagnosing eye dis
 ## Installation
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/eye-doctor.git
+   git clone https://github.com/FaisalKhan19/Multi-Modal-Fundus-Scan-Analysis.git
    ```
 2. Install the necessary dependencies:
    ```bash
