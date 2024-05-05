@@ -23,7 +23,7 @@ The Eye Doctor System is an application designed to assist in diagnosing eye dis
 
 ### AI Large Language Model
 - Generates diagnostic reports based on patient information and disease predictions
-- With carefull promt engineering, focus of the ChatBot is driven towards the diseases with high confidense score
+- With carefull promt engineering, focus of the ChatBot is driven towards the diseases with high confidence score
 - A diagnostic report is generated while considering the patient's age, gender, etc.
 - The report consists of explaination, possile cures and next step to be taken in the right direction
 
