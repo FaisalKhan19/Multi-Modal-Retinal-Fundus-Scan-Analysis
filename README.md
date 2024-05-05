@@ -30,7 +30,7 @@ The Eye Doctor System is an application designed to assist in diagnosing eye dis
 
 ## Obtaining and Training the Model
 1. Obtain the `OIA-ODIR` dataset from [https://drive.google.com/file/d/1-7DO1jJFC_4W0hc2CaonlLe595M4eDOh/view].
-2. Follow the instructions provided in the provided [FUNDUS-DEEP-NET-AUGMENTED.ipynb] file to train the model.
+2. Follow the instructions provided in the provided Notebook[FUNDUS-DEEP-NET-AUGMENTED.ipynb] file to train the model.
 
 ## Installation
 1. Clone the repository to your local machine:
