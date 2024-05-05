@@ -17,6 +17,9 @@ The Eye Doctor System is an application designed to assist in diagnosing eye dis
 
 ### Deep Learning Model
 - Processes input data to predict eye disease probabilities
+- Utilizing late fusion technique to combine the patient demographich features with the Fundus scan features.
+
+![Illustration of the Model Architecture](Model-Arch.png)
 
 ### AI Large Language Model
 - Generates diagnostic reports based on patient information and disease predictions
