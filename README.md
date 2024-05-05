@@ -17,12 +17,15 @@ The Eye Doctor System is an application designed to assist in diagnosing eye dis
 
 ### Deep Learning Model
 - Processes input data to predict eye disease probabilities
-- Utilizing late fusion technique to combine the patient demographich features with the Fundus scan features.
+- Utilizing late fusion technique to combine the patient demographich features with the Fundus scan features
 
 ![Illustration of the Model Architecture](Model-Arch.png)
 
 ### AI Large Language Model
 - Generates diagnostic reports based on patient information and disease predictions
+- With carefull promt engineering, focus of the ChatBot is driven towards the diseases with high confidense score
+- A diagnostic report is generated while considering the patient's age, gender, etc.
+- The report consists of explaination, possile cures and next step to be taken in the right direction
 
 ## Usage
 1. Start the Flask backend by running `python app.py`.
