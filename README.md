@@ -60,7 +60,7 @@ The Eye Doctor System is an application designed to assist in diagnosing eye dis
 ## Dependencies
 - Flask
 - Deep learning framework (e.g., TensorFlow, PyTorch)
-- AI Large Language Model library (e.g., OpenAI GPT)
+- An AI Large Language Model library (e.g., OpenAI GPT)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
