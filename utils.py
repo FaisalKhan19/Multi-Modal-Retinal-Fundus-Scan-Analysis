@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from PIL.Image import open
 from tensorflow.keras.models import load_model
-model = load_model("Model_multimodal_aug")
+model = load_model("Q:\\Projects\\Model_multimodal_aug")
 Classes = ["Normal", "Diabetic Retinopathy", "Glaucoma", "Cataract", "AMD", "Hypertension", "Myopia", "Other"]
 
 def generate_clipping_mask(image, tolerance=6):
